@@ -1,9 +1,12 @@
 import logo from "../assets/just-cm-svg.svg";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { CgMail } from "react-icons/cg";
+import { useState } from "react";
+
 
 const Navbar = () => {
   return ( 
-    <nav className="flex items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:py-4">
+    <nav className="sticky top-0 left-0 flex items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:py-4">
       <div className="flex items-center">
         <img className="m-0 h-10" src={logo} alt="logo" />
         {/* Navigation Links */}
@@ -16,13 +19,18 @@ const Navbar = () => {
       </div>
 
       {/* Social Media Links */}
-      <div className="flex space-x-4">
-        <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" className="text-black text-2xl hover:text-gray-700 transition duration-200">
+      <div className="mr-4 flex space-x-4">
+        <a href="https://github.com/caidenm11" target="_blank" rel="noopener noreferrer" className="text-black text-2xl hover:text-gray-700 transition duration-200">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer" className="text-black text-2xl hover:text-gray-700 transition duration-200">
+        <a href="https://www.linkedin.com/in/caiden-merklin-80b37624/" target="_blank" rel="noopener noreferrer" className="text-black text-2xl hover:text-gray-700 transition duration-200">
           <FaLinkedin />
         </a>
+        <a target="_blank" rel="noopener noreferrer" className="text-black text-2xl hover:text-gray-700 transition duration-200">
+            {/* TODO MAKE THIS A PROPER PAGE -> NOT ADDING my email here, should be a proper contact page or else my email will be scraped. */}
+          <CgMail />
+        </a>
+        
       </div>
     </nav>
   );

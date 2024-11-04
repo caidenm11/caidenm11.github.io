@@ -6,6 +6,10 @@ module.exports = {
       fontFamily: {
         'little-days': ['"Little Days"', 'sans-serif'], 'Gruppo': ['"Gruppo"', 'sans-serif'],// Custom font with fallback
       },
+      fontFamily: {
+        'roboto-slab': ['"Roboto Slab"', 'serif'],
+        'roboto-mono': ['"Roboto Mono"', 'monospace'],
+      },
 
     },
   },

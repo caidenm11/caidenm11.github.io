@@ -1,7 +1,7 @@
 import backgroundLocation from './assets/background-image.webp';
 const Home = () => {
     return (
-        <div style={{ backgroundImage: `url(${backgroundLocation})` }}>
+        <div style={{ abackgroundImage: `url(${backgroundLocation})` }}>
             <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-r bg-gray-100 bg-cover bg-center"
                 style={{ backgroundImage: `url(${backgroundLocation})` }}>
                 <div className='text-center flex flex-col items-center'>

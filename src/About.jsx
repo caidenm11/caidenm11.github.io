@@ -7,8 +7,9 @@ export const About = () => {
     return (
         <section
             id="home"
-            className="min-h-screen flex items-center justify-center bg-[#9aa3a5] bg-cover bg-center py-10"
+            className="min-h-screen flex items-center justify-center  bg-[#9aa3a5] bg-cover bg-center py-10"
         >
+            {/*  bg-[#9aa3a5] -- Maybe for dark mode or something*/}
             <div className="grid grid-cols-5 gap-4 w-full max-w-screen-xl px-10">
 
                 {/* Left box */}
@@ -33,6 +34,7 @@ export const About = () => {
                 {/* Right box */}
                 <div className="col-span-1 h-[80vh] flex items-center justify-center">
                     <img src={computerStack} alt="Stack of Computers" className="object-cover h-full w-full" />
+                    {/* Photo by Faltu   Grapher : https://www.pexels.com/photo/stacked-antiques-in-a-market-15545737/ */}
                 </div>
             </div>
         </section>

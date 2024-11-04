@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I'm a Computing Science student and EHS Software Deve
 export const HOBBIES_TEXT = `
 In my free time, I enjoy tuning cars, snowboarding, and trying new foods.`;
 
-
+export const CIRCLE_COLOR = `bg-gray-400`;
 
 export const EXPERIENCES = [
   {

@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'little-days': ['"Little Days"', 'sans-serif'], 'Gruppo': ['"Gruppo"', 'sans-serif'],// Custom font with fallback
+      },
+
+    },
   },
   plugins: [],
 }

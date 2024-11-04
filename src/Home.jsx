@@ -4,8 +4,12 @@ const Home = () => {
         <div style={{backgroundImage: `url(${backgroundLocation})`}}>
       <section id="home" className="min-h-screen flex items-center justify-center bg-gray-100 bg-cover bg-center"
       style={{ backgroundImage: `url(${backgroundLocation})` }}>
-       
-        <h1 className="text-4xl font-bold">Welcome to My Website</h1>
+      <div className='text-center flex flex-col items-center'>
+       <h1 className="text-6xl font-thin font-little-days antialiased">Caiden Merklin</h1>
+       <h2 className="font-Gruppo antialiased">Software Engineer | Business Analyst | Computing Science</h2>
+       <hr className="w-[110%] border-t border-gray-400 mt-2" />
+
+       </div> 
         {/* Make a line here */}
       </section>
       </div>

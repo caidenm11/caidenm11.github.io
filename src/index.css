@@ -8,3 +8,19 @@
     font-family: "Inter", sans-serif;
 }
 
+@font-face{
+    font-family: 'Little Days';
+  src: url('./assets/Little Days Alt.ttf') format('truetype');
+  font-family: 'Little Days', sans-serif;
+  font-weight: 300; /* Lighter font-weight if supported */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face{
+    font-family: 'Gruppo';
+    src: url('./assets/Gruppo-Regular.ttf') format('truetype');
+    font-family: 'Gruppo', sans-serif;
+    font-weight: 300; /* Lighter font-weight if supported */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

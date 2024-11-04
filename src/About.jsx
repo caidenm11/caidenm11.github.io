@@ -6,7 +6,7 @@ import computerStack from './assets/stack-of-computers.jpg';
 export const About = () => {
     return (
         <section
-            id="home"
+            id="about"
             className="min-h-screen flex items-center justify-center  bg-[#9aa3a5] bg-cover bg-center py-10"
         >
             {/*  bg-[#9aa3a5] -- Maybe for dark mode or something*/}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Gruppo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-family: "Inter", sans-serif;
+}
+
+@font-face{
+    font-family: 'Little Days';
+  src: url('./assets/Little Days Alt.ttf') format('truetype');
+  font-family: 'Little Days', sans-serif;
+  font-weight: 300; /* Lighter font-weight if supported */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face{
+    font-family: 'Gruppo';
+    src: url('./assets/Gruppo-Regular.ttf') format('truetype');
+    font-family: 'Gruppo', sans-serif;
+    font-weight: 300; /* Lighter font-weight if supported */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
